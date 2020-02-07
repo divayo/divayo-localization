@@ -6,6 +6,12 @@ namespace Divayo.Localization.Data
 {
     public class LocalizationDbContext : DbContext
     {
+        public LocalizationDbContext(DbContextOptions options)
+            :  base(options)
+        {
+
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // CountryArea self reference

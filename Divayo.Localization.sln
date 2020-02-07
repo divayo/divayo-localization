@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Data", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Enums", "Divayo.Localization.Enums\Divayo.Localization.Enums.csproj", "{ED6A1C25-E8A4-46DF-A272-9D8DF1401FC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Services", "Divayo.Localization.Services\Divayo.Localization.Services.csproj", "{53B23DC4-AE31-4359-9452-362E5B6BC5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Common", "Divayo.Localization.Common\Divayo.Localization.Common.csproj", "{88D010B7-8B15-418F-9962-BA311B984623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{ED6A1C25-E8A4-46DF-A272-9D8DF1401FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED6A1C25-E8A4-46DF-A272-9D8DF1401FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED6A1C25-E8A4-46DF-A272-9D8DF1401FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B23DC4-AE31-4359-9452-362E5B6BC5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B23DC4-AE31-4359-9452-362E5B6BC5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B23DC4-AE31-4359-9452-362E5B6BC5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B23DC4-AE31-4359-9452-362E5B6BC5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D010B7-8B15-418F-9962-BA311B984623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D010B7-8B15-418F-9962-BA311B984623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D010B7-8B15-418F-9962-BA311B984623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D010B7-8B15-418F-9962-BA311B984623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
