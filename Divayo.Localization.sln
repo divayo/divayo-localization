@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Data", "Divayo.Localization.Data\Divayo.Localization.Data.csproj", "{F806AED5-9228-4059-9827-65EBE44EB3AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divayo.Localization.Data", "Divayo.Localization.Data\Divayo.Localization.Data.csproj", "{F806AED5-9228-4059-9827-65EBE44EB3AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Enums", "Divayo.Localization.Enums\Divayo.Localization.Enums.csproj", "{ED6A1C25-E8A4-46DF-A272-9D8DF1401FC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divayo.Localization.Enums", "Divayo.Localization.Enums\Divayo.Localization.Enums.csproj", "{ED6A1C25-E8A4-46DF-A272-9D8DF1401FC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Services", "Divayo.Localization.Services\Divayo.Localization.Services.csproj", "{53B23DC4-AE31-4359-9452-362E5B6BC5E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divayo.Localization.Services", "Divayo.Localization.Services\Divayo.Localization.Services.csproj", "{53B23DC4-AE31-4359-9452-362E5B6BC5E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.Common", "Divayo.Localization.Common\Divayo.Localization.Common.csproj", "{88D010B7-8B15-418F-9962-BA311B984623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divayo.Localization.Common", "Divayo.Localization.Common\Divayo.Localization.Common.csproj", "{88D010B7-8B15-418F-9962-BA311B984623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.API", "Divayo.Localization.API\Divayo.Localization.API.csproj", "{496AA8F2-288B-4409-B4FA-65151743DF27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{88D010B7-8B15-418F-9962-BA311B984623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D010B7-8B15-418F-9962-BA311B984623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D010B7-8B15-418F-9962-BA311B984623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496AA8F2-288B-4409-B4FA-65151743DF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496AA8F2-288B-4409-B4FA-65151743DF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496AA8F2-288B-4409-B4FA-65151743DF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496AA8F2-288B-4409-B4FA-65151743DF27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

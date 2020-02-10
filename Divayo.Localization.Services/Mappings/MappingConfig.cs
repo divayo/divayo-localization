@@ -11,7 +11,9 @@ namespace Divayo.Localization.Services.Mappings
     {
         public MappingConfig()
         {
-            CreateMap<Country, CountryDto>();                
+            CreateMap<Country, CountryDto>();
+            CreateMap<CountryArea, CountryAreaDto>();
+            CreateMap<Language, LanguageDto>();
         }
     }
 }

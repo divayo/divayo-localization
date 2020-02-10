@@ -74,5 +74,31 @@ namespace Divayo.Localization.Services
                 return dtos;
             }
         }
+
+        public async Task<IEnumerable<LanguageDto>> GetLanguagesAsync()
+        {
+            var cacheKey = "GetLanguagesAsync";
+            IEnumerable<LanguageDto> dtos;
+
+            if (_cache.TryGetValue(cacheKey, out dtos))
+            {
+                return dtos;
+            }
+            else
+            {
+                var dbResult = await _dbContext.Languages.ToListAsync();
+                dtos = _mapper.Map<IEnumerable<LanguageDto>>(dbResult);
+
+                // Set cache options.
+                var cacheEntryOptions = new MemoryCacheEntryOptions()
+                    // Keep in cache for this time, reset time if accessed.
+                    .SetAbsoluteExpiration(DateTime.UtcNow.AddDays(1));
+
+                // Save data in cache.
+                _cache.Set(cacheKey, dtos, cacheEntryOptions);
+
+                return dtos;
+            }
+        }
     }
 }

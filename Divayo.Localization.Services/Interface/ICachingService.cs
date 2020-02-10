@@ -9,5 +9,7 @@ namespace Divayo.Localization.Services
         Task<IEnumerable<CountryDto>> GetCountriesAsync();
 
         Task<IEnumerable<CountryAreaDto>> GetCountryAreasAsync();
+
+        Task<IEnumerable<LanguageDto>> GetLanguagesAsync();
     }
 }
