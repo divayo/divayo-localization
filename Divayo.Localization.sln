@@ -11,7 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divayo.Localization.Service
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divayo.Localization.Common", "Divayo.Localization.Common\Divayo.Localization.Common.csproj", "{88D010B7-8B15-418F-9962-BA311B984623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divayo.Localization.API", "Divayo.Localization.API\Divayo.Localization.API.csproj", "{496AA8F2-288B-4409-B4FA-65151743DF27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divayo.Localization.API", "Divayo.Localization.API\Divayo.Localization.API.csproj", "{496AA8F2-288B-4409-B4FA-65151743DF27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EDE15A3-4BC6-4579-B901-B66BAAA72666}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

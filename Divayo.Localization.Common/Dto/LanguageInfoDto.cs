@@ -4,14 +4,9 @@ using System.Text;
 
 namespace Divayo.Localization.Common.Dto
 {
-    public class LanguageDto
+    public class LanguageInfoDto
     {
-        public long Id { get; set; }
-
-        public string ShortName { get; set; }
-
+        public string Code { get; set; }
         public string Name { get; set; }
-
-        public string NativeName { get; set; }
     }
 }

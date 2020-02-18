@@ -17,7 +17,10 @@ namespace Divayo.Localization.Data.Entities
         public string Name { get; set; }
 
         [StringLength(128)]
-        public string LocalName { get; set; }
+        public string NativeName { get; set; }
+
+        [StringLength(4)]
+        public string ShortName { get; set; }
 
         [Required]
         public DateTimeOffset CreatedAt { get; set; }
