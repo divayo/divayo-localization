@@ -18,6 +18,9 @@ namespace Divayo.Localization.Services.Mappings
             CreateMap<CountryInfoDto, Country>()
                 .ForMember(d => d.Alpha2Code, opts => opts.MapFrom(src => src.Alpha2))
                 .ForMember(d => d.Alpha3Code, opts => opts.MapFrom(src => src.Alpha3));
+
+            CreateMap<LanguageInfoDto, Language>()
+                .ForMember(d => d.ShortName, opts => opts.MapFrom(src => src.Code));
         }
     }
 }

@@ -60,7 +60,7 @@ namespace Divayo.Localization.Services
             var dataFile = "Assets/languages.json";
             var filePath = $"{rootFolder}/{dataFile}";
 
-            if (dbContext.Countries.Any())
+            if (dbContext.Languages.Any())
             {
                 return;
             }
